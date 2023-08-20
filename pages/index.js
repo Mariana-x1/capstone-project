@@ -1,7 +1,10 @@
+import React from "react";
+import GalleryCoffeeList from "@/components/GalleryCoffeeList/GalleryCoffeeList";
+
 export default function HomePage() {
   return (
     <div>
-      <h1>Hello from Next.js</h1>
+      <GalleryCoffeeList />
     </div>
   );
 }
